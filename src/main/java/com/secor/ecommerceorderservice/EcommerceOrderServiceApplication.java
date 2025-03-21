@@ -1,14 +1,14 @@
-package com.secor.orderservice;
+package com.secor.ecommerceorderservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OrderServiceApplication {
+public class EcommerceOrderServiceApplication {
 
     public static void main(String[] args) {
 
-        SpringApplication.run(OrderServiceApplication.class, args);
+        SpringApplication.run(EcommerceOrderServiceApplication.class, args);
 
     }
 

@@ -1,4 +1,4 @@
-package com.secor.orderservice;
+package com.secor.ecommerceorderservice;
 
 
 import lombok.Getter;

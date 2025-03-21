@@ -1,4 +1,4 @@
-package com.secor.orderservice;
+package com.secor.ecommerceorderservice;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
