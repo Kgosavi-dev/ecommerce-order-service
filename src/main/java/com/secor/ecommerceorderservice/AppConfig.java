@@ -26,5 +26,14 @@ public class AppConfig {
                 .build();
     }
 
+    @Bean(name = "product-service-get-product")
+    public WebClient webClientOrderService(WebClient.Builder webClientBuilder)
+    {
+        return webClientBuilder
+                .baseUrl("http://localhost:8087/api/v1/get/product")
+                .filter(new LoggingWebClientFilter())
+                .build();
+    }
+
 
 }
